@@ -27,6 +27,8 @@ namespace W1_Variables
             Console.WriteLine(tcId + " TC numaralı " + name + " " + surname + " isimli kişi için kayıt oluşturulmuştur.");
             Console.WriteLine(phoneNumber + " telefon numarasına bildirim mesaji gönderilmiştir");
             Console.WriteLine(totalPrice + " toplam harcama karşılığı kazanılan 10% patika puan miktarı -> " + String.Format("{0:0.0}", bonusPoints) + " TL'dir.");
+
+            Console.Read();
         }
     }
 }
